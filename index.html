@@ -368,42 +368,42 @@ img{display:block}
    ============================================================ */
 
 const CONFIG = {
-  title:    "Ran's Halloween Story",
+  title:    "Halloween Night -不思議な夜の物語-",
   artist:   "Ran",
   role:     "AI ARTIST",
-  profile:  "かわいい女の子と猫とお花で癒しのイラストをお届けしています♡\n今回はハロウィンの夜、魔法の世界に迷い込んだ女の子が、\n不思議な洋館の中を巡り、\n最後には自分自身の心と出会う物語を描いてみました。",
+  profile:  "今夜はハロウィン。魔法の世界に迷い込んだ女の子が、\n古い洋館を巡りながら、最後に自分自身の心と出会う\n--そんな特別な夜の物語を描きました。\n右上の♪マークを押すと音楽が流れます。\nぜひ音楽と一緒に、ハロウィンの魔法の世界をお楽しみください。\n\n普段はかわいい女の子と猫とお花で癒しのイラストをお届けしています\nお時間がありましたら常設ギャラリーもご覧くださいね♡",
   closing:  "楽しんでいただけましたか？ご覧いただきありがとうございました♡",
   links: [
     { label:"Instagram", url:"https://www.instagram.com/ran_aiart?igsh=MmhreXg5cGkzbmdu&utm_source=qr" }
   ],
-  gallery:  "",  // いつもの個展のURL
+  gallery:  "https://ran-aiartist.github.io/Ran-s-room/",  // いつもの個展のURL
   wall:     "sumi"
   // 壁の色：purple（紫）／ sumi（墨）／ wine（ワイン）／ gray（グレー）／ caramel（キャラメル）／ ivory（アイボリー）
 };
 
 /* 部屋の名前と、作品のタイトル（作品は4〜20点です） */
 const ROOMS = [
-  { name:"Ran's Halloween Story", jp:"ハロウィンのものがたり", works:[
-      { file:"art01.png", title:"街を歩く女の子と猫", caption:"今夜はどこへ行こう？" },
-      { file:"art02.png", title:"ハロウィンの街へ", caption:"魔法の夜へ、ようこそ" },
-      { file:"art03.png", title:"魔女のお菓子屋さん", caption:"甘い魔法をひとつ、ください" },
+  { name:"Halloween Night", jp:"- 不思議な夜の物語 -", works:[
+      { file:"art01.png", title:"ハロウィンの街", caption:"今夜はどこへ行こう？" },
+      { file:"art02.png", title:"魔法の夜のはじまり", caption:"魔法の夜へ、ようこそ" },
+      { file:"art03.png", title:"甘い魔法", caption:"甘い魔法をひとつ、ください" },
       { file:"art04.png", title:"月夜と謎の洋館", caption:"あの館で、何かが始まる" },
-      { file:"art05.png", title:"館への道", caption:"満月の下を洋館へ" },
-      { file:"art06.png", title:"開かれた扉", caption:"誰もいないはずなのに、扉が…" },
-      { file:"art07.png", title:"誰かいるの？", caption:"長い廊下。遠くに、人影？" },
-      { file:"art08.png", title:"鏡の間", caption:"古い大きな鏡に映っているのは誰？" },
-      { file:"art09.png", title:"鏡が呼んでいる", caption:"鏡の中の幽霊がこちらに手を伸ばしている" },
-      { file:"art10.png", title:"鏡の向こう側", caption:"現実と鏡の世界の境目はどこ？" },
+      { file:"art05.png", title:"猫に導かれて", caption:"満月のもと、猫が私を洋館へ導く" },
+      { file:"art06.png", title:"開かれた扉", caption:"誰もいないはずなのに、扉が開いている" },
+      { file:"art07.png", title:"誰かいるの？", caption:"長い廊下の奥から何かが私を見ている" },
+      { file:"art08.png", title:"鏡の間", caption:"これは誰！？" },
+      { file:"art09.png", title:"闇の世界", caption:"幽霊たちが呼んでいる" },
+      { file:"art10.png", title:"向こう側へ", caption:"見たことのない景色を見に行く" },
       { file:"art11.png", title:"幻？", caption:"私にそっくり？" },
-      { file:"art12.png", title:"この世界の秘密", caption:"黒猫だけが何かを知っている" },
-      { file:"art13.png", title:"最上階の謎の扉", caption:"巨大な扉を発見" },
-      { file:"art14.png", title:"赤い光のヒミツ", caption:"扉を開け、ヒミツのもとへ" },
-      { file:"art15.png", title:"赤い天体", caption:"魔法の球体の正体は？" },
-      { file:"art16.png", title:"球体に映るもう一人の私", caption:"黒猫は知っていた" },
-      { file:"art17.png", title:"向き合う", caption:"あちらの自分と向き合う" },
-      { file:"art18.png", title:"真実が明らかに", caption:"黒猫が教えてくれた" },
-      { file:"art19.png", title:"夜明け", caption:"夢かうつつか…楽しい夜だったなぁ" },
-      { file:"art20.png", title:"ありのままで", caption:"あなたの中にも、まだ出会っていない本当の自分がいるかもね" }
+      { file:"art12.png", title:"塔への階段", caption:"この先に何かが待っている" },
+      { file:"art13.png", title:"最上階の謎の部屋", caption:"重厚な扉を発見" },
+      { file:"art14.png", title:"扉を開ける", caption:"勇気を出して見に行こう！" },
+      { file:"art15.png", title:"赤い光の正体", caption:"近づくほど、私を呼んでいるように感じる" },
+      { file:"art16.png", title:"輝きの中のもう一人の私", caption:"黒猫は、すべてを知っている" },
+      { file:"art17.png", title:"あなたは誰？", caption:"彼女はただ、私をそっと抱きしめてくれた" },
+      { file:"art18.png", title:"魔法のあとで", caption:"気付けば私は、いつもの私に戻っていた" },
+      { file:"art19.png", title:"夜明け前", caption:"あれは夢だったのかな" },
+      { file:"art20.png", title:"ハロウィンの夜に", caption:"今夜の物語を、一緒に楽しんでくれてありがとう" }
   ]}
 ];
 
